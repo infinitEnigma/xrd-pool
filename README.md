@@ -12,15 +12,15 @@ pull repo
 
 build container
 
-`cd pool`
+`cd xrd-pool`
 
 EDIT YOUR CONFIGS. update passwords and public/private keys.
 
-`sudo docker build -t pool/xrd .`
+`sudo docker build -t xrd-pool/xrd .`
 
 run pool container
 
-`sudo docker run -p 80:8080 -p 6666:6666 -p 3030:3030 -v ~/data:/root/.ravendarkcore -d --name xrd pool/xrd:latest`
+`sudo docker run -p 80:8080 -p 6666:6666 -p 3030:3030 -v ~/data:/root/.ravendarkcore -d --name xrd xrd-pool/xrd:latest`
 
 to get into container, if needed
 

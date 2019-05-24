@@ -8,7 +8,7 @@ install docker
 
 pull repo
 
-`git clone https://github.com/infinitEnigma/pool.git`
+`git clone https://github.com/infinitEnigma/xrd-pool.git`
 
 build container
 
